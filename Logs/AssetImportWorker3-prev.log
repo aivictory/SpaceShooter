@@ -1,0 +1,687 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.6f1 (b9e6e7e9fa2d) revision 12183271'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 15774 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+E:/[Workspace]/Unity/SpaceShooter
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+49899
+Successfully changed project path to: E:/[Workspace]/Unity/SpaceShooter
+E:/[Workspace]/Unity/SpaceShooter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22744] Host "[IP] 10.8.1.16 [Port] 0 [Flags] 2 [Guid] 3621662554 [EditorId] 3621662554 [Version] 1048832 [Id] WindowsEditor(7,aivictory) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22744] Host "[IP] 10.8.1.16 [Port] 0 [Flags] 2 [Guid] 3621662554 [EditorId] 3621662554 [Version] 1048832 [Id] WindowsEditor(7,aivictory) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 13.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/[Workspace]/Unity/SpaceShooter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800M (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     12234 MB
+    Driver:   32.0.12033.1030
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.052311 seconds.
+- Loaded All Assemblies, in  0.524 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 325 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.608 seconds
+Domain Reload Profiling: 1120ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (140ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (125ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (609ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (563ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (441ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (77ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\[Workspace]\Unity\SpaceShooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\[Workspace]\Unity\SpaceShooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.964 seconds
+Refreshing native plugins compatible for Editor in 5.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.581 seconds
+Domain Reload Profiling: 1532ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (639ms)
+		LoadAssemblies (457ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (268ms)
+				TypeCache.ScanAssembly (251ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (582ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (452ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (241ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (44ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 5.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4218 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (1.6 MB). Loaded Objects now: 4675.
+Memory consumption went from 240.2 MB to 238.5 MB.
+Total: 3.974900 ms (FindLiveObjects: 0.296400 ms CreateObjectMapping: 0.237100 ms MarkObjects: 2.970300 ms  DeleteObjects: 0.470200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15202.624912 seconds.
+  path: Assets/Prefabs/Ships/Ship_01.prefab
+  artifactKey: Guid(e3d3fd93b84331a4882dce020a6c950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_01.prefab using Guid(e3d3fd93b84331a4882dce020a6c950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e56bf31c1289e1323a59a2ad01b729c') in 0.211633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2139278d012d52e5aedc02f91449e8') in 0.067031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 2.975133 seconds.
+  path: Assets/Prefabs/Ships/Ship_01.prefab
+  artifactKey: Guid(e3d3fd93b84331a4882dce020a6c950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_01.prefab using Guid(e3d3fd93b84331a4882dce020a6c950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf14a4daafca97171ba4826f4fd3ac0b') in 0.076971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467a0932376973dcb89da4cc9b02afd5') in 0.068126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c233cc57170305f927ac0623aa5ef4b8') in 0.076842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 1.381630 seconds.
+  path: Assets/Prefabs/Ships/Ship_01.prefab
+  artifactKey: Guid(e3d3fd93b84331a4882dce020a6c950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_01.prefab using Guid(e3d3fd93b84331a4882dce020a6c950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96a121e72f5d09dd34919c84bcb446c') in 0.050914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634dc1c4410a75dc5b4450905343b130') in 0.066775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464e56b143098c98d8701b1446aeab88') in 0.071510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 14.940801 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b175806bc0ca91be1f54ed8b974e27') in 0.077501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c53cddf99921828d461a03504238b5') in 0.066254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 38.572878 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b94835165d93dad2117c82d6ddbeac0') in 0.091601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Ships/Ship_AI.prefab
+  artifactKey: Guid(ab5abb3e7bcf9e843b8437c16c72bea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_AI.prefab using Guid(ab5abb3e7bcf9e843b8437c16c72bea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e32fe2d0d4fc09aa3e3ab5b492d183') in 0.085875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 16.259562 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ad5456a00060980cfb2e9a8f1bf8ba') in 0.103374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf3ec52bd53dc8a7a548eec03008855') in 0.058464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.044081 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e75a92397e3f2bb36f3bc2a304ea285') in 0.104800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.105489 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0607689dd086d83153bc024d2427177') in 0.096182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6ca3cc2828586e5b48503a536759f3') in 0.068920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 1.419306 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2909b5b31100b57e221126c4d25210a3') in 0.091236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17a089aff3235f07fa2e4cd2a8724b1') in 0.073429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.063320 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c72f825d7981d14d90d5dcc15a4cbf') in 0.105495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108a8d342a617a3a5186934af78174f0') in 0.053791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.035153 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d587421cbdbea22d2cf3623577aa35') in 0.092409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Ships/Ship_AI.prefab
+  artifactKey: Guid(ab5abb3e7bcf9e843b8437c16c72bea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_AI.prefab using Guid(ab5abb3e7bcf9e843b8437c16c72bea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03d042a8c046f8759f8efb7925ea477') in 0.092328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 16.729885 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f797eb1f18c85f67e6c71850219ba4') in 0.102186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7275f6b18454c0d6a4a951d574a50a8b') in 0.056131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 4.082807 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc12079b60781e0b1b0f020c7b88ec28') in 0.084544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce1432e7d4f305d9193908d8bec5f18') in 0.084789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 30.580313 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cb947a38d5b62621da7286bd0e5646') in 0.094012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e2008ad4e32f56ec0f8462000529f5') in 0.089159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 19.006579 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bc6d03d70b850a5324ee7cabf36f29') in 0.103647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.126537 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd24130c67f3414c7fca855958c2fadd') in 0.100441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb5adc8db884724ef0c0e9d99a05585') in 0.082364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.020253 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55729a459d7686f9297f65f949b3dc64') in 0.101636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2395a1e0cb0a11be0a643bdfcd80fc03') in 0.088809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.019763 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74f71479830dac3d04b6034effcdc99') in 0.106747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2a80f03b8575913b707939b7c8be7b') in 0.091106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 26.696511 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8251c462977dd01cdd3e7f082ecd99') in 0.102535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ae8f13ba04bc0ac7d16b59142a75d8') in 0.059632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 3.063960 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61ac432b0d25540a264c80ba6b2f879') in 0.091030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336369bfbff716debc206ecf38ff68cb') in 0.068001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.059944 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2d50516d7961bd0c37c1e7e97b82ed') in 0.087361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7bdea1d0a7dfa96f58be28ab57b249') in 0.068692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 1.036635 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d118a60c2734cc1c07d2d6804468c78') in 0.102097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.119437 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f4733034c25f5462a52a5a679bb990') in 0.074787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0dc62c0a37544b2c0c89c8c6d2e2ebc') in 0.084307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.030760 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9e2bf5a4c4d013c99d2855f7a57206') in 0.105341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 20.485821 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d40b198122db721c709ad94730f0b89') in 0.093341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Ships/Ship_AI.prefab
+  artifactKey: Guid(ab5abb3e7bcf9e843b8437c16c72bea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_AI.prefab using Guid(ab5abb3e7bcf9e843b8437c16c72bea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb10c4c9c83e76381208856281c03368') in 0.083924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 0.623280 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f485e9a14d42a4e8a87bc019bc519b66') in 0.082364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Ships/Ship_AI.prefab
+  artifactKey: Guid(ab5abb3e7bcf9e843b8437c16c72bea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_AI.prefab using Guid(ab5abb3e7bcf9e843b8437c16c72bea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1009bf5e634d242c8b6204ba32ac32d6') in 0.096746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 0.226750 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6ee22b5582b96d19aaec1a0d7af52d') in 0.095968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Ships/Ship_AI.prefab
+  artifactKey: Guid(ab5abb3e7bcf9e843b8437c16c72bea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_AI.prefab using Guid(ab5abb3e7bcf9e843b8437c16c72bea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84648a2f258bce8ae2267a7c0c339ff') in 0.085609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 21.661341 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb116e7aed6c6013c846feee2d51ce7') in 0.107746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4306c1b696646bb0513b46de42c8ef8') in 0.088310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.006805 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe5c6dd10d8f7f5bfe07540a18f6a14') in 0.099896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717d9dc7a4012b9af08bd34b969b4c6f') in 0.074586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.036242 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5545289c217df07e88b4aaba8a12da12') in 0.091072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c5bf536e4203e231080b00cf4eac88') in 0.081913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 34.488273 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f374d9f9ac22ebe5d75f2d651312f74f') in 0.096986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Ships/Ship_03.prefab
+  artifactKey: Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_03.prefab using Guid(244c0bfc89419d64aa0af9bd5c4ff7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c907062493bf4ae46b6122aaeac8542') in 0.081187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 27.827770 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039dd299900d3d91218f22ce431b4181') in 0.101564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 4.537911 seconds.
+  path: Assets/Prefabs/Ships/Ship_02.prefab
+  artifactKey: Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Ship_02.prefab using Guid(eb104e68ef88cea4093d33179bc6c9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e5b1571bea44526cb675e2bd8c3ebb') in 0.107518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,581 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.6f1 (b9e6e7e9fa2d) revision 12183271'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 15774 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+E:/[Workspace]/Unity/SpaceShooter
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+57885
+Successfully changed project path to: E:/[Workspace]/Unity/SpaceShooter
+E:/[Workspace]/Unity/SpaceShooter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [40292] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 2463462162 [EditorId] 2463462162 [Version] 1048832 [Id] WindowsEditor(7,aivictory) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [40292] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 2463462162 [EditorId] 2463462162 [Version] 1048832 [Id] WindowsEditor(7,aivictory) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 24.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/[Workspace]/Unity/SpaceShooter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800M (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     12234 MB
+    Driver:   32.0.12033.1030
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.064835 seconds.
+- Loaded All Assemblies, in  0.702 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 465 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.854 seconds
+Domain Reload Profiling: 1542ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (175ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (187ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (854ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (786ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (628ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\[Workspace]\Unity\SpaceShooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\[Workspace]\Unity\SpaceShooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.067 seconds
+Refreshing native plugins compatible for Editor in 6.07 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.614 seconds
+Domain Reload Profiling: 1666ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (647ms)
+		LoadAssemblies (516ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (279ms)
+			TypeCache.Refresh (258ms)
+				TypeCache.ScanAssembly (241ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (483ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (48ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 5.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4226 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (1.6 MB). Loaded Objects now: 4683.
+Memory consumption went from 240.4 MB to 238.7 MB.
+Total: 4.451700 ms (FindLiveObjects: 0.461000 ms CreateObjectMapping: 0.277000 ms MarkObjects: 3.244500 ms  DeleteObjects: 0.468100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KillText.cs: 06f30b271b843f7ec61cc30031f34dbd -> 14573feec8f3031043c3adb56fb0d14e
+  custom:scripting/monoscript/fileName/MainMenu.cs: 65b2cf7cd361e188efbd8dc5a18b02e1 -> a0776e364150c48a4f33a22fc348b8f0
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GravityWell.cs: 06ffdec6a61d90216d6a327328e22b69 -> cb37b2c9d44763d640c033e97bed45e0
+  custom:scripting/monoscript/fileName/ProjectileExplosion.cs: 5cf2eb839594b2a966c8bb8e011ba2b2 -> 0a94f583be932052b36ebee7efde578c
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/AIController.cs: 9d576e3afa741fb2cce54aab8eb050f6 -> 7869523f013edd120595d00c8bd7ace3
+  custom:scripting/monoscript/fileName/LevelCondition.cs: 73d3a408ec9298ae13d1989805ab89e5 -> 56220e47f13a9d6f5cc4a57df54c0651
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ProjectileRadiusExplosion.cs: 1c540d82f7acdd5ae9846fe99f063915 -> 0ad27350654a2f66ab73faaaf3a171db
+  custom:scripting/monoscript/fileName/PausePanel.cs: aad111e4ef2326385ea5367d0e96737c -> 4dbb4c9a992ec5bda72ff703ae6c663a
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/HitPointBar.cs: d05bfe80cd76079789ed5969fa8f33c3 -> 238ad6e8673fcc3149e4170f7b806bd5
+  custom:scripting/monoscript/fileName/ShipSelectionButton.cs: 6bdefa65a3cc6c46549d4bb0ed995aab -> 36d703c113e651e7475a2840093f9389
+  custom:scripting/monoscript/fileName/CircleArea.cs: 1482702e9e044544f9f1e968da607089 -> a1bfd05d7373bd00ac772c4b01036d97
+  custom:scripting/monoscript/fileName/Powerup.cs: daf94943f18e57ad514a35be253b99aa -> d23368dd04b86a17b387609661e03573
+  custom:scripting/monoscript/fileName/LevelBoundary.cs: 2077e769fd985963dd1a65563c91c633 -> 5a5c25097001dcd73fab79a17903bbc8
+  custom:scripting/monoscript/fileName/GravityRepulsion.cs: 6e65c05028de3380cbe53fe2e7d92077 -> 9bbf1bf1331d110aea69465d16a7e400
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ScoreText.cs: 1701a14a86ccad229def379250ef7c75 -> 02fe923940a8486c6039e91ccc9be2b0
+  custom:scripting/monoscript/fileName/CollisionDamageApplicator.cs: 7680944721ddaf974c1929a9306d54d4 -> 76dd668e4c3be2da2ce2b050342dfb26
+  custom:scripting/monoscript/fileName/Projectile.cs: f8e0497282a953eff7a2d672cdf8ea83 -> 4296d9f35bd4ebc17cbf660b54c10cd9
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LevelBoundaryLimiter.cs: e07c9cbbfa5777d14f11d8d6682c265e -> c0832935378d434b6bb8a3cc8d52badd
+  custom:scripting/monoscript/fileName/AIPointPatrol.cs: eb0e8e5f26bfea523f07fa08e1f55d45 -> f6ce4eb69ce0c239ed5eb4029b119353
+  custom:scripting/monoscript/fileName/LevelProperties.cs: 82d0396ef408d6329b61a094f5f649f8 -> 58516f386ad79cd507499bc2471a28c8
+  custom:scripting/monoscript/fileName/LevelController.cs: df670bbec9e15ebcc5252deccc7f84d1 -> 95be805c84534c4c39d3fed43e7835d6
+  custom:scripting/monoscript/fileName/DebrisFragment.cs: 571f2904f8108b7e9c05a7da678f256a -> 21fe5094ac9d14b57f34f3bd952c51ce
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LevelSelectionButton.cs: bc96d85896772db853c9165036cc0a69 -> a7cc0d25715b11815e9c2202663e2a4b
+  custom:scripting/monoscript/fileName/VirtualJoystick.cs: a70a7851b41d386d35adc3cce3b81035 -> 408219a6c9451d69f29e62a116f31e57
+  custom:scripting/monoscript/fileName/BackgroundElement.cs: adc1cf0917e11d0e9e1a8abc4d040b54 -> ed46443d32c36b28da0365e860108a51
+  custom:scripting/monoscript/fileName/PointClickHold.cs: 41b49513d7279ba1bb6f4c2724b7eaa4 -> afb6bf245f513c0a99ecbb3df46c1ac4
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/Turret.cs: e9cc16cfe0acf4b36b28857343a6cbaa -> 1d32edd9e1df319ae11c146b7a01dc23
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpaceShip.cs: 8b1b5621fffeb31f3464fc59fddcca85 -> 8f17b7099f292d327d6efedcc6d7eda1
+  custom:scripting/monoscript/fileName/Entity.cs: 25e3addbc7a283ee149450824e5a3898 -> e15d600106d9f9bc1cde5bbdf4c21a2e
+  custom:scripting/monoscript/fileName/EntitySpawnerDebris.cs: fed5fcc6cec92cb928af35458a9a12e5 -> 7ed996fc2b10e4bd1531dcec1859c3f5
+  custom:scripting/monoscript/fileName/CameraController.cs: 63872c439979ce4d51435ec2e350a2eb -> 
+  custom:scripting/monoscript/fileName/LevelCompletitionScore.cs: 8d1b67e223f984ff484700e3182a7fb6 -> 1fe67b9644a0c8d4378128e060556f0a
+  custom:scripting/monoscript/fileName/PowerupStats.cs: df37c95c92e40cf2e006fd310c364641 -> fb6afd310799beefaacd88f6a6e634c9
+  custom:scripting/monoscript/fileName/LivesIndicator.cs: 770a8512bcd3d2be6ac83d7ebf91cc75 -> c865d1b81ccab97e9aa207a417f24c73
+  custom:scripting/monoscript/fileName/ImpactEffect.cs: e17a52f7748ef5f1b83757e900f744fd -> 4dca677f5e595d1bd16f3bbcb9d93c62
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/EntitySpawner.cs: 2b7ee6763f468c61f55d1f6318a87a88 -> 6a3436d57407a3746dbdae7a3aede6c3
+  custom:scripting/monoscript/fileName/LevelCompletitionPosition.cs: b265c1345e07b4baebdc3f40ed3fcf98 -> 793837d5aae267e6c0a26b5b87f4cb66
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Destructible.cs: ebb865afc827228caa831627a948792f -> 25e154838b0bf72c0b7cdbc331d3799b
+  custom:scripting/monoscript/fileName/SingletonBase.cs: d81fe1a86eaaaaa888ee50e17a01544a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TurretProperities.cs: af8f58fea53a8df9e3dd244d9ec93c13 -> c3a455c6496c1399b2267dde9deb5e80
+  custom:scripting/monoscript/fileName/ResultPanel.cs: f4b7f77f36a379e4a5b8ea917abc2045 -> bcd988dc5273bd8290855a39b3172702
+  custom:scripting/monoscript/fileName/MovementController.cs: a8d55312ec898eee5d3b546ad241d1d0 -> 
+  custom:scripting/monoscript/fileName/ExplosionController.cs: b58b9eabd4b83645faac8532ab55e4af -> 1c5924a1aed9ed14b9aa333aae17b416
+  custom:scripting/monoscript/fileName/Player.cs: 8f024b5e64f9f2929f4aba408d369c5e -> 4bda573e13e528002f91a69177562b3a
+  custom:scripting/monoscript/fileName/SceneController.cs: 88b58623b4d6bc74a0f70ee1f268a46d -> c2ac87768d79f306f3f278231363fa87
+  custom:scripting/monoscript/fileName/Timer.cs: 79eef293f51341a6021c81b2c92418b4 -> 05ed2314bdc9e2c588faf032b3c4a15f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SyncTransform.cs: de5c301eaa5c408ae60298d9b44973f4 -> 90714d81b2020e8b608cac18180f303c
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\[Workspace]\Unity\SpaceShooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\[Workspace]\Unity\SpaceShooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.214 seconds
+Refreshing native plugins compatible for Editor in 6.28 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.412 seconds
+Domain Reload Profiling: 2610ms
+	BeginReloadAssembly (312ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (753ms)
+		LoadAssemblies (591ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (322ms)
+			TypeCache.Refresh (317ms)
+				TypeCache.ScanAssembly (302ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1412ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (572ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (64ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 8.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4176 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.6 MB). Loaded Objects now: 4688.
+Memory consumption went from 227.9 MB to 226.3 MB.
+Total: 4.729200 ms (FindLiveObjects: 0.415100 ms CreateObjectMapping: 0.264900 ms MarkObjects: 3.526900 ms  DeleteObjects: 0.520200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KillText.cs: 06f30b271b843f7ec61cc30031f34dbd -> 14573feec8f3031043c3adb56fb0d14e
+  custom:scripting/monoscript/fileName/MainMenu.cs: 65b2cf7cd361e188efbd8dc5a18b02e1 -> a0776e364150c48a4f33a22fc348b8f0
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GravityWell.cs: 06ffdec6a61d90216d6a327328e22b69 -> cb37b2c9d44763d640c033e97bed45e0
+  custom:scripting/monoscript/fileName/ProjectileExplosion.cs: 5cf2eb839594b2a966c8bb8e011ba2b2 -> 0a94f583be932052b36ebee7efde578c
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/AIController.cs: 9d576e3afa741fb2cce54aab8eb050f6 -> 7869523f013edd120595d00c8bd7ace3
+  custom:scripting/monoscript/fileName/LevelCondition.cs: 73d3a408ec9298ae13d1989805ab89e5 -> 56220e47f13a9d6f5cc4a57df54c0651
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ProjectileRadiusExplosion.cs: 1c540d82f7acdd5ae9846fe99f063915 -> 0ad27350654a2f66ab73faaaf3a171db
+  custom:scripting/monoscript/fileName/PausePanel.cs: aad111e4ef2326385ea5367d0e96737c -> 4dbb4c9a992ec5bda72ff703ae6c663a
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/HitPointBar.cs: d05bfe80cd76079789ed5969fa8f33c3 -> 238ad6e8673fcc3149e4170f7b806bd5
+  custom:scripting/monoscript/fileName/ShipSelectionButton.cs: 6bdefa65a3cc6c46549d4bb0ed995aab -> 36d703c113e651e7475a2840093f9389
+  custom:scripting/monoscript/fileName/CircleArea.cs: 1482702e9e044544f9f1e968da607089 -> a1bfd05d7373bd00ac772c4b01036d97
+  custom:scripting/monoscript/fileName/Powerup.cs: daf94943f18e57ad514a35be253b99aa -> d23368dd04b86a17b387609661e03573
+  custom:scripting/monoscript/fileName/LevelBoundary.cs: 2077e769fd985963dd1a65563c91c633 -> 5a5c25097001dcd73fab79a17903bbc8
+  custom:scripting/monoscript/fileName/GravityRepulsion.cs: 6e65c05028de3380cbe53fe2e7d92077 -> 9bbf1bf1331d110aea69465d16a7e400
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ScoreText.cs: 1701a14a86ccad229def379250ef7c75 -> 02fe923940a8486c6039e91ccc9be2b0
+  custom:scripting/monoscript/fileName/CollisionDamageApplicator.cs: 7680944721ddaf974c1929a9306d54d4 -> 76dd668e4c3be2da2ce2b050342dfb26
+  custom:scripting/monoscript/fileName/Projectile.cs: f8e0497282a953eff7a2d672cdf8ea83 -> 4296d9f35bd4ebc17cbf660b54c10cd9
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LevelBoundaryLimiter.cs: e07c9cbbfa5777d14f11d8d6682c265e -> c0832935378d434b6bb8a3cc8d52badd
+  custom:scripting/monoscript/fileName/AIPointPatrol.cs: eb0e8e5f26bfea523f07fa08e1f55d45 -> f6ce4eb69ce0c239ed5eb4029b119353
+  custom:scripting/monoscript/fileName/LevelProperties.cs: 82d0396ef408d6329b61a094f5f649f8 -> 58516f386ad79cd507499bc2471a28c8
+  custom:scripting/monoscript/fileName/LevelController.cs: df670bbec9e15ebcc5252deccc7f84d1 -> 95be805c84534c4c39d3fed43e7835d6
+  custom:scripting/monoscript/fileName/DebrisFragment.cs: 571f2904f8108b7e9c05a7da678f256a -> 21fe5094ac9d14b57f34f3bd952c51ce
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LevelSelectionButton.cs: bc96d85896772db853c9165036cc0a69 -> a7cc0d25715b11815e9c2202663e2a4b
+  custom:scripting/monoscript/fileName/VirtualJoystick.cs: a70a7851b41d386d35adc3cce3b81035 -> 408219a6c9451d69f29e62a116f31e57
+  custom:scripting/monoscript/fileName/BackgroundElement.cs: adc1cf0917e11d0e9e1a8abc4d040b54 -> ed46443d32c36b28da0365e860108a51
+  custom:scripting/monoscript/fileName/PointClickHold.cs: 41b49513d7279ba1bb6f4c2724b7eaa4 -> afb6bf245f513c0a99ecbb3df46c1ac4
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/Turret.cs: e9cc16cfe0acf4b36b28857343a6cbaa -> 1d32edd9e1df319ae11c146b7a01dc23
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpaceShip.cs: 8b1b5621fffeb31f3464fc59fddcca85 -> 8f17b7099f292d327d6efedcc6d7eda1
+  custom:scripting/monoscript/fileName/Entity.cs: 25e3addbc7a283ee149450824e5a3898 -> e15d600106d9f9bc1cde5bbdf4c21a2e
+  custom:scripting/monoscript/fileName/EntitySpawnerDebris.cs: fed5fcc6cec92cb928af35458a9a12e5 -> 7ed996fc2b10e4bd1531dcec1859c3f5
+  custom:scripting/monoscript/fileName/CameraController.cs: 63872c439979ce4d51435ec2e350a2eb -> 
+  custom:scripting/monoscript/fileName/LevelCompletitionScore.cs: 8d1b67e223f984ff484700e3182a7fb6 -> 1fe67b9644a0c8d4378128e060556f0a
+  custom:scripting/monoscript/fileName/PowerupStats.cs: df37c95c92e40cf2e006fd310c364641 -> fb6afd310799beefaacd88f6a6e634c9
+  custom:scripting/monoscript/fileName/LivesIndicator.cs: 770a8512bcd3d2be6ac83d7ebf91cc75 -> c865d1b81ccab97e9aa207a417f24c73
+  custom:scripting/monoscript/fileName/ImpactEffect.cs: e17a52f7748ef5f1b83757e900f744fd -> 4dca677f5e595d1bd16f3bbcb9d93c62
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/EntitySpawner.cs: 2b7ee6763f468c61f55d1f6318a87a88 -> 6a3436d57407a3746dbdae7a3aede6c3
+  custom:scripting/monoscript/fileName/LevelCompletitionPosition.cs: b265c1345e07b4baebdc3f40ed3fcf98 -> 793837d5aae267e6c0a26b5b87f4cb66
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Destructible.cs: ebb865afc827228caa831627a948792f -> 25e154838b0bf72c0b7cdbc331d3799b
+  custom:scripting/monoscript/fileName/SingletonBase.cs: d81fe1a86eaaaaa888ee50e17a01544a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TurretProperities.cs: af8f58fea53a8df9e3dd244d9ec93c13 -> c3a455c6496c1399b2267dde9deb5e80
+  custom:scripting/monoscript/fileName/ResultPanel.cs: f4b7f77f36a379e4a5b8ea917abc2045 -> bcd988dc5273bd8290855a39b3172702
+  custom:scripting/monoscript/fileName/MovementController.cs: a8d55312ec898eee5d3b546ad241d1d0 -> 
+  custom:scripting/monoscript/fileName/ExplosionController.cs: b58b9eabd4b83645faac8532ab55e4af -> 1c5924a1aed9ed14b9aa333aae17b416
+  custom:scripting/monoscript/fileName/Player.cs: 8f024b5e64f9f2929f4aba408d369c5e -> 4bda573e13e528002f91a69177562b3a
+  custom:scripting/monoscript/fileName/SceneController.cs: 88b58623b4d6bc74a0f70ee1f268a46d -> c2ac87768d79f306f3f278231363fa87
+  custom:scripting/monoscript/fileName/Timer.cs: 79eef293f51341a6021c81b2c92418b4 -> 05ed2314bdc9e2c588faf032b3c4a15f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SyncTransform.cs: de5c301eaa5c408ae60298d9b44973f4 -> 90714d81b2020e8b608cac18180f303c
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\[Workspace]\Unity\SpaceShooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\[Workspace]\Unity\SpaceShooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.040 seconds
+Refreshing native plugins compatible for Editor in 5.68 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.164 seconds
+Domain Reload Profiling: 2189ms
+	BeginReloadAssembly (262ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (637ms)
+		LoadAssemblies (518ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (246ms)
+				TypeCache.ScanAssembly (233ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1165ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (455ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (218ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (53ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 5.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4176 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.6 MB). Loaded Objects now: 4692.
+Memory consumption went from 227.9 MB to 226.3 MB.
+Total: 4.727200 ms (FindLiveObjects: 0.306300 ms CreateObjectMapping: 0.244100 ms MarkObjects: 3.730300 ms  DeleteObjects: 0.445700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KillText.cs: 06f30b271b843f7ec61cc30031f34dbd -> 14573feec8f3031043c3adb56fb0d14e
+  custom:scripting/monoscript/fileName/MainMenu.cs: 65b2cf7cd361e188efbd8dc5a18b02e1 -> a0776e364150c48a4f33a22fc348b8f0
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GravityWell.cs: 06ffdec6a61d90216d6a327328e22b69 -> cb37b2c9d44763d640c033e97bed45e0
+  custom:scripting/monoscript/fileName/ProjectileExplosion.cs: 5cf2eb839594b2a966c8bb8e011ba2b2 -> 0a94f583be932052b36ebee7efde578c
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/AIController.cs: 9d576e3afa741fb2cce54aab8eb050f6 -> 7869523f013edd120595d00c8bd7ace3
+  custom:scripting/monoscript/fileName/LevelCondition.cs: 73d3a408ec9298ae13d1989805ab89e5 -> 56220e47f13a9d6f5cc4a57df54c0651
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ProjectileRadiusExplosion.cs: 1c540d82f7acdd5ae9846fe99f063915 -> 0ad27350654a2f66ab73faaaf3a171db
+  custom:scripting/monoscript/fileName/PausePanel.cs: aad111e4ef2326385ea5367d0e96737c -> 4dbb4c9a992ec5bda72ff703ae6c663a
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/HitPointBar.cs: d05bfe80cd76079789ed5969fa8f33c3 -> 238ad6e8673fcc3149e4170f7b806bd5
+  custom:scripting/monoscript/fileName/ShipSelectionButton.cs: 6bdefa65a3cc6c46549d4bb0ed995aab -> 36d703c113e651e7475a2840093f9389
+  custom:scripting/monoscript/fileName/CircleArea.cs: 1482702e9e044544f9f1e968da607089 -> a1bfd05d7373bd00ac772c4b01036d97
+  custom:scripting/monoscript/fileName/Powerup.cs: daf94943f18e57ad514a35be253b99aa -> d23368dd04b86a17b387609661e03573
+  custom:scripting/monoscript/fileName/LevelBoundary.cs: 2077e769fd985963dd1a65563c91c633 -> 5a5c25097001dcd73fab79a17903bbc8
+  custom:scripting/monoscript/fileName/GravityRepulsion.cs: 6e65c05028de3380cbe53fe2e7d92077 -> 9bbf1bf1331d110aea69465d16a7e400
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ScoreText.cs: 1701a14a86ccad229def379250ef7c75 -> 02fe923940a8486c6039e91ccc9be2b0
+  custom:scripting/monoscript/fileName/CollisionDamageApplicator.cs: 7680944721ddaf974c1929a9306d54d4 -> 76dd668e4c3be2da2ce2b050342dfb26
+  custom:scripting/monoscript/fileName/Projectile.cs: f8e0497282a953eff7a2d672cdf8ea83 -> 4296d9f35bd4ebc17cbf660b54c10cd9
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LevelBoundaryLimiter.cs: e07c9cbbfa5777d14f11d8d6682c265e -> c0832935378d434b6bb8a3cc8d52badd
+  custom:scripting/monoscript/fileName/AIPointPatrol.cs: eb0e8e5f26bfea523f07fa08e1f55d45 -> f6ce4eb69ce0c239ed5eb4029b119353
+  custom:scripting/monoscript/fileName/LevelProperties.cs: 82d0396ef408d6329b61a094f5f649f8 -> 58516f386ad79cd507499bc2471a28c8
+  custom:scripting/monoscript/fileName/LevelController.cs: df670bbec9e15ebcc5252deccc7f84d1 -> 95be805c84534c4c39d3fed43e7835d6
+  custom:scripting/monoscript/fileName/DebrisFragment.cs: 571f2904f8108b7e9c05a7da678f256a -> 21fe5094ac9d14b57f34f3bd952c51ce
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LevelSelectionButton.cs: bc96d85896772db853c9165036cc0a69 -> a7cc0d25715b11815e9c2202663e2a4b
+  custom:scripting/monoscript/fileName/VirtualJoystick.cs: a70a7851b41d386d35adc3cce3b81035 -> 408219a6c9451d69f29e62a116f31e57
+  custom:scripting/monoscript/fileName/BackgroundElement.cs: adc1cf0917e11d0e9e1a8abc4d040b54 -> ed46443d32c36b28da0365e860108a51
+  custom:scripting/monoscript/fileName/PointClickHold.cs: 41b49513d7279ba1bb6f4c2724b7eaa4 -> afb6bf245f513c0a99ecbb3df46c1ac4
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/Turret.cs: e9cc16cfe0acf4b36b28857343a6cbaa -> 1d32edd9e1df319ae11c146b7a01dc23
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpaceShip.cs: 8b1b5621fffeb31f3464fc59fddcca85 -> 8f17b7099f292d327d6efedcc6d7eda1
+  custom:scripting/monoscript/fileName/Entity.cs: 25e3addbc7a283ee149450824e5a3898 -> e15d600106d9f9bc1cde5bbdf4c21a2e
+  custom:scripting/monoscript/fileName/EntitySpawnerDebris.cs: fed5fcc6cec92cb928af35458a9a12e5 -> 7ed996fc2b10e4bd1531dcec1859c3f5
+  custom:scripting/monoscript/fileName/CameraController.cs: 63872c439979ce4d51435ec2e350a2eb -> 
+  custom:scripting/monoscript/fileName/LevelCompletitionScore.cs: 8d1b67e223f984ff484700e3182a7fb6 -> 1fe67b9644a0c8d4378128e060556f0a
+  custom:scripting/monoscript/fileName/PowerupStats.cs: df37c95c92e40cf2e006fd310c364641 -> fb6afd310799beefaacd88f6a6e634c9
+  custom:scripting/monoscript/fileName/LivesIndicator.cs: 770a8512bcd3d2be6ac83d7ebf91cc75 -> c865d1b81ccab97e9aa207a417f24c73
+  custom:scripting/monoscript/fileName/ImpactEffect.cs: e17a52f7748ef5f1b83757e900f744fd -> 4dca677f5e595d1bd16f3bbcb9d93c62
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/EntitySpawner.cs: 2b7ee6763f468c61f55d1f6318a87a88 -> 6a3436d57407a3746dbdae7a3aede6c3
+  custom:scripting/monoscript/fileName/LevelCompletitionPosition.cs: b265c1345e07b4baebdc3f40ed3fcf98 -> 793837d5aae267e6c0a26b5b87f4cb66
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Destructible.cs: ebb865afc827228caa831627a948792f -> 25e154838b0bf72c0b7cdbc331d3799b
+  custom:scripting/monoscript/fileName/SingletonBase.cs: d81fe1a86eaaaaa888ee50e17a01544a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TurretProperities.cs: af8f58fea53a8df9e3dd244d9ec93c13 -> c3a455c6496c1399b2267dde9deb5e80
+  custom:scripting/monoscript/fileName/ResultPanel.cs: f4b7f77f36a379e4a5b8ea917abc2045 -> bcd988dc5273bd8290855a39b3172702
+  custom:scripting/monoscript/fileName/MovementController.cs: a8d55312ec898eee5d3b546ad241d1d0 -> 
+  custom:scripting/monoscript/fileName/ExplosionController.cs: b58b9eabd4b83645faac8532ab55e4af -> 1c5924a1aed9ed14b9aa333aae17b416
+  custom:scripting/monoscript/fileName/Player.cs: 8f024b5e64f9f2929f4aba408d369c5e -> 4bda573e13e528002f91a69177562b3a
+  custom:scripting/monoscript/fileName/SceneController.cs: 88b58623b4d6bc74a0f70ee1f268a46d -> c2ac87768d79f306f3f278231363fa87
+  custom:scripting/monoscript/fileName/Timer.cs: 79eef293f51341a6021c81b2c92418b4 -> 05ed2314bdc9e2c588faf032b3c4a15f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SyncTransform.cs: de5c301eaa5c408ae60298d9b44973f4 -> 90714d81b2020e8b608cac18180f303c
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\[Workspace]\Unity\SpaceShooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\[Workspace]\Unity\SpaceShooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.140 seconds
+Refreshing native plugins compatible for Editor in 6.45 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.394 seconds
+Domain Reload Profiling: 2518ms
+	BeginReloadAssembly (259ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (739ms)
+		LoadAssemblies (562ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (307ms)
+			TypeCache.Refresh (301ms)
+				TypeCache.ScanAssembly (283ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1395ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (548ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (63ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 6.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4176 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.6 MB). Loaded Objects now: 4696.
+Memory consumption went from 227.9 MB to 226.3 MB.
+Total: 5.647000 ms (FindLiveObjects: 0.392600 ms CreateObjectMapping: 0.301000 ms MarkObjects: 4.196600 ms  DeleteObjects: 0.755600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/KillText.cs: 06f30b271b843f7ec61cc30031f34dbd -> 14573feec8f3031043c3adb56fb0d14e
+  custom:scripting/monoscript/fileName/MainMenu.cs: 65b2cf7cd361e188efbd8dc5a18b02e1 -> a0776e364150c48a4f33a22fc348b8f0
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GravityWell.cs: 06ffdec6a61d90216d6a327328e22b69 -> cb37b2c9d44763d640c033e97bed45e0
+  custom:scripting/monoscript/fileName/ProjectileExplosion.cs: 5cf2eb839594b2a966c8bb8e011ba2b2 -> 0a94f583be932052b36ebee7efde578c
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/AIController.cs: 9d576e3afa741fb2cce54aab8eb050f6 -> 7869523f013edd120595d00c8bd7ace3
+  custom:scripting/monoscript/fileName/LevelCondition.cs: 73d3a408ec9298ae13d1989805ab89e5 -> 56220e47f13a9d6f5cc4a57df54c0651
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ProjectileRadiusExplosion.cs: 1c540d82f7acdd5ae9846fe99f063915 -> 0ad27350654a2f66ab73faaaf3a171db
+  custom:scripting/monoscript/fileName/PausePanel.cs: aad111e4ef2326385ea5367d0e96737c -> 4dbb4c9a992ec5bda72ff703ae6c663a
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/HitPointBar.cs: d05bfe80cd76079789ed5969fa8f33c3 -> 238ad6e8673fcc3149e4170f7b806bd5
+  custom:scripting/monoscript/fileName/ShipSelectionButton.cs: 6bdefa65a3cc6c46549d4bb0ed995aab -> 36d703c113e651e7475a2840093f9389
+  custom:scripting/monoscript/fileName/CircleArea.cs: 1482702e9e044544f9f1e968da607089 -> a1bfd05d7373bd00ac772c4b01036d97
+  custom:scripting/monoscript/fileName/Powerup.cs: daf94943f18e57ad514a35be253b99aa -> d23368dd04b86a17b387609661e03573
+  custom:scripting/monoscript/fileName/LevelBoundary.cs: 2077e769fd985963dd1a65563c91c633 -> 5a5c25097001dcd73fab79a17903bbc8
+  custom:scripting/monoscript/fileName/GravityRepulsion.cs: 6e65c05028de3380cbe53fe2e7d92077 -> 9bbf1bf1331d110aea69465d16a7e400
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ScoreText.cs: 1701a14a86ccad229def379250ef7c75 -> 02fe923940a8486c6039e91ccc9be2b0
+  custom:scripting/monoscript/fileName/CollisionDamageApplicator.cs: 7680944721ddaf974c1929a9306d54d4 -> 76dd668e4c3be2da2ce2b050342dfb26
+  custom:scripting/monoscript/fileName/Projectile.cs: f8e0497282a953eff7a2d672cdf8ea83 -> 4296d9f35bd4ebc17cbf660b54c10cd9
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LevelBoundaryLimiter.cs: e07c9cbbfa5777d14f11d8d6682c265e -> c0832935378d434b6bb8a3cc8d52badd
+  custom:scripting/monoscript/fileName/AIPointPatrol.cs: eb0e8e5f26bfea523f07fa08e1f55d45 -> f6ce4eb69ce0c239ed5eb4029b119353
+  custom:scripting/monoscript/fileName/LevelProperties.cs: 82d0396ef408d6329b61a094f5f649f8 -> 58516f386ad79cd507499bc2471a28c8
+  custom:scripting/monoscript/fileName/LevelController.cs: df670bbec9e15ebcc5252deccc7f84d1 -> 95be805c84534c4c39d3fed43e7835d6
+  custom:scripting/monoscript/fileName/DebrisFragment.cs: 571f2904f8108b7e9c05a7da678f256a -> 21fe5094ac9d14b57f34f3bd952c51ce
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LevelSelectionButton.cs: bc96d85896772db853c9165036cc0a69 -> a7cc0d25715b11815e9c2202663e2a4b
+  custom:scripting/monoscript/fileName/VirtualJoystick.cs: a70a7851b41d386d35adc3cce3b81035 -> 408219a6c9451d69f29e62a116f31e57
+  custom:scripting/monoscript/fileName/BackgroundElement.cs: adc1cf0917e11d0e9e1a8abc4d040b54 -> ed46443d32c36b28da0365e860108a51
+  custom:scripting/monoscript/fileName/PointClickHold.cs: 41b49513d7279ba1bb6f4c2724b7eaa4 -> afb6bf245f513c0a99ecbb3df46c1ac4
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/Turret.cs: e9cc16cfe0acf4b36b28857343a6cbaa -> 1d32edd9e1df319ae11c146b7a01dc23
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SpaceShip.cs: 8b1b5621fffeb31f3464fc59fddcca85 -> 8f17b7099f292d327d6efedcc6d7eda1
+  custom:scripting/monoscript/fileName/Entity.cs: 25e3addbc7a283ee149450824e5a3898 -> e15d600106d9f9bc1cde5bbdf4c21a2e
+  custom:scripting/monoscript/fileName/EntitySpawnerDebris.cs: fed5fcc6cec92cb928af35458a9a12e5 -> 7ed996fc2b10e4bd1531dcec1859c3f5
+  custom:scripting/monoscript/fileName/CameraController.cs: 63872c439979ce4d51435ec2e350a2eb -> 
+  custom:scripting/monoscript/fileName/LevelCompletitionScore.cs: 8d1b67e223f984ff484700e3182a7fb6 -> 1fe67b9644a0c8d4378128e060556f0a
+  custom:scripting/monoscript/fileName/PowerupStats.cs: df37c95c92e40cf2e006fd310c364641 -> fb6afd310799beefaacd88f6a6e634c9
+  custom:scripting/monoscript/fileName/LivesIndicator.cs: 770a8512bcd3d2be6ac83d7ebf91cc75 -> c865d1b81ccab97e9aa207a417f24c73
+  custom:scripting/monoscript/fileName/ImpactEffect.cs: e17a52f7748ef5f1b83757e900f744fd -> 4dca677f5e595d1bd16f3bbcb9d93c62
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/EntitySpawner.cs: 2b7ee6763f468c61f55d1f6318a87a88 -> 6a3436d57407a3746dbdae7a3aede6c3
+  custom:scripting/monoscript/fileName/LevelCompletitionPosition.cs: b265c1345e07b4baebdc3f40ed3fcf98 -> 793837d5aae267e6c0a26b5b87f4cb66
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Destructible.cs: ebb865afc827228caa831627a948792f -> 25e154838b0bf72c0b7cdbc331d3799b
+  custom:scripting/monoscript/fileName/SingletonBase.cs: d81fe1a86eaaaaa888ee50e17a01544a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TurretProperities.cs: af8f58fea53a8df9e3dd244d9ec93c13 -> c3a455c6496c1399b2267dde9deb5e80
+  custom:scripting/monoscript/fileName/ResultPanel.cs: f4b7f77f36a379e4a5b8ea917abc2045 -> bcd988dc5273bd8290855a39b3172702
+  custom:scripting/monoscript/fileName/MovementController.cs: a8d55312ec898eee5d3b546ad241d1d0 -> 
+  custom:scripting/monoscript/fileName/ExplosionController.cs: b58b9eabd4b83645faac8532ab55e4af -> 1c5924a1aed9ed14b9aa333aae17b416
+  custom:scripting/monoscript/fileName/Player.cs: 8f024b5e64f9f2929f4aba408d369c5e -> 4bda573e13e528002f91a69177562b3a
+  custom:scripting/monoscript/fileName/SceneController.cs: 88b58623b4d6bc74a0f70ee1f268a46d -> c2ac87768d79f306f3f278231363fa87
+  custom:scripting/monoscript/fileName/Timer.cs: 79eef293f51341a6021c81b2c92418b4 -> 05ed2314bdc9e2c588faf032b3c4a15f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SyncTransform.cs: de5c301eaa5c408ae60298d9b44973f4 -> 90714d81b2020e8b608cac18180f303c
