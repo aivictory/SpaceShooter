@@ -59,29 +59,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CodeBase\GamePlay\Powerup\PowerupStats.cs" />
+    <Compile Include="Assets\CodeBase\GamePlay\FollowCamera.cs" />
     <Compile Include="Assets\CodeBase\Common\Timer.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\UI\Indicators\LivesIndicator.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Projectiles\ProjectileExplosion.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\UI\Indicators\KillText.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\UI\Panel\PausePanel.cs" />
+    <Compile Include="Assets\CodeBase\GamePlay\Services\Singletones\LevelBoundary.cs" />
     <Compile Include="Assets\CodeBase\Common\ProjectileBase.cs" />
-    <Compile Include="Assets\CodeBase\GamePlay\Player.cs" />
-    <Compile Include="Assets\CodeBase\GamePlay\LevelLogic\LevelBoundary.cs" />
     <Compile Include="Assets\CodeBase\Common\VirtualJoystick.cs" />
     <Compile Include="Assets\CodeBase\Common\Entity.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\CollisionDamageApplicator.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Services\LevelBuilder.cs" />
-    <Compile Include="Assets\CodeBase\GamePlay\Controller\SceneController.cs" />
+    <Compile Include="Assets\CodeBase\GamePlay\Ship\SpaceShip.cs" />
+    <Compile Include="Assets\CodeBase\GamePlay\Services\Singletones\LevelController.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Turrets\Turret.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\AI\AIController.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\LevelLogic\CompletisionCondition\LevelCompletitionScore.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Ramps\Runtime\RampAsset.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\AdjustTimeScale.cs" />
+    <Compile Include="Assets\CodeBase\GamePlay\UI\Panel\ShipSelectionButton.cs" />
     <Compile Include="Assets\CodeBase\Infrastructure\SingletonBase.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\SimpleCameraController.cs" />
-    <Compile Include="Assets\CodeBase\GamePlay\Controller\FollowCamera.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\BackgroundElement.cs" />
-    <Compile Include="Assets\CodeBase\GamePlay\Controller\ShipInputController.cs" />
     <Compile Include="Assets\CodeBase\Common\ImpactEffect.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\SimpleCharacterMotor.cs" />
     <Compile Include="Assets\CodeBase\Common\PointClickHold.cs" />
@@ -89,25 +89,24 @@
     <Compile Include="Assets\CodeBase\GamePlay\UI\MainMenu.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\UI\VirtualGamepad.cs" />
     <Compile Include="Assets\CodeBase\Common\Destructible.cs" />
+    <Compile Include="Assets\CodeBase\GamePlay\Ship\ShipInputController.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\LevelLogic\CompletisionCondition\LevelCondition.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Spawners\EntitySpawnerDebris.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\ProximityActivate.cs" />
-    <Compile Include="Assets\CodeBase\GamePlay\LevelLogic\LevelController.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Projectiles\ProjectileRadiusExplosion.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Gravity\GravityWell.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Powerup\Powerup.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\LevelLogic\LevelBoundaryLimiter.cs" />
     <Compile Include="Assets\CodeBase\Common\CircleArea.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\AI\AIPointPatrol.cs" />
-    <Compile Include="Assets\CodeBase\GamePlay\UI\ShipSelectionButton.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Services\PlayerSpawner.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Turrets\TurretProperities.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\UI\LevelSelectionButton.cs" />
-    <Compile Include="Assets\CodeBase\GamePlay\SpaceShip.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\UI\Indicators\HitPointBar.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\UI\Indicators\ScoreText.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\DebrisFragment.cs" />
+    <Compile Include="Assets\CodeBase\GamePlay\UI\SceneController.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Powerup\PowerupWeapon.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Gravity\GravityRepulsion.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Spawners\EntitySpawner.cs" />
@@ -116,6 +115,7 @@
     <Compile Include="Assets\UnityTechnologies\ParticlePack\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\UI\Panel\ResultPanel.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Projectile.cs" />
+    <Compile Include="Assets\CodeBase\GamePlay\Services\Singletones\Player.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\LevelLogic\CompletisionCondition\LevelCompletitionPosition.cs" />
   </ItemGroup>
   <ItemGroup>
