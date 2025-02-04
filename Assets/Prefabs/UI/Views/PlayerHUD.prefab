@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6094457938169549336}
-  - component: {fileID: 3886069601968438317}
+  - component: {fileID: 8611891291027740434}
   m_Layer: 5
   m_Name: LivesPanel
   m_TagString: Untagged
@@ -33,12 +33,12 @@ RectTransform:
   - {fileID: 8103846299371199596}
   m_Father: {fileID: 2081441709676112078}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -100, y: -50}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 98, y: -50}
   m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &3886069601968438317
+--- !u!114 &8611891291027740434
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Text: {fileID: 5070276891390941283}
+  m_Icon: {fileID: 4885740403370387264}
 --- !u!1 &392854521053675891
 GameObject:
   m_ObjectHideFlags: 0

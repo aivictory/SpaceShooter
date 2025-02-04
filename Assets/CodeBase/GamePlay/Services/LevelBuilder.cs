@@ -11,7 +11,7 @@ namespace SpaceShooter
         [SerializeField] private GameObject m_BackroundPrefab;
 
         [Header("Dependencies")]
-        [SerializeField] private PlayerSpawner m_PlayerSpawner;
+        [SerializeField] private PlayerSpawner playerSpawner;
         [SerializeField] private LevelBoundary levelBoundary;
         [SerializeField] private LevelController levelController;
 
@@ -21,7 +21,7 @@ namespace SpaceShooter
             levelBoundary.Init();
             levelController.Init();
 
-            Player player = m_PlayerSpawner.Spawn();
+            Player player = playerSpawner.Spawn();
 
             player.Init();
 

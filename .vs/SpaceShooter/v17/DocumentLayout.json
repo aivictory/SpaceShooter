@@ -3,52 +3,56 @@
   "WorkspaceRootPath": "E:\\[Workspace]\\Unity\\SpaceShooter\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|E:\\[Workspace]\\Unity\\SpaceShooter\\assets\\codebase\\gameplay\\ui\\indicators\\livesindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\ui\\indicators\\livesindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|e:\\[workspace]\\unity\\spaceshooter\\assets\\codebase\\gameplay\\services\\levelbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\services\\levelbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|E:\\[Workspace]\\Unity\\SpaceShooter\\assets\\codebase\\gameplay\\services\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\services\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|E:\\[Workspace]\\Unity\\SpaceShooter\\assets\\codebase\\infrastructure\\singletonbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\infrastructure\\singletonbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|e:\\[workspace]\\unity\\spaceshooter\\assets\\codebase\\gameplay\\ui\\indicators\\hitpointbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\ui\\indicators\\hitpointbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|e:\\[workspace]\\unity\\spaceshooter\\assets\\codebase\\gameplay\\ui\\indicators\\livesindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\ui\\indicators\\livesindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|e:\\[workspace]\\unity\\spaceshooter\\assets\\codebase\\gameplay\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|E:\\[Workspace]\\Unity\\SpaceShooter\\assets\\codebase\\gameplay\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|e:\\[workspace]\\unity\\spaceshooter\\assets\\codebase\\gameplay\\services\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\services\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\Scripts\\UI\\Indicators\\ScoreText.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UI\\Indicators\\ScoreText.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|e:\\[workspace]\\unity\\spaceshooter\\assets\\codebase\\infrastructure\\singletonbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\infrastructure\\singletonbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\Scripts\\ImpactEffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ImpactEffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\[Workspace]\\Unity\\SpaceShooter\\assets\\scripts\\ui\\indicators\\scoretext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\ui\\indicators\\scoretext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\Scripts\\Controller\\MovementController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Controller\\MovementController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\[Workspace]\\Unity\\SpaceShooter\\assets\\scripts\\impacteffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\impacteffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\Scripts\\PointClickHold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PointClickHold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\[Workspace]\\Unity\\SpaceShooter\\assets\\scripts\\controller\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\controller\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\Scripts\\Space\\SpaceShip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Space\\SpaceShip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\[Workspace]\\Unity\\SpaceShooter\\assets\\scripts\\pointclickhold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\pointclickhold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\Scripts\\Turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\[Workspace]\\Unity\\SpaceShooter\\assets\\scripts\\space\\spaceship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\space\\spaceship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\[Workspace]\\Unity\\SpaceShooter\\assets\\scripts\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\[Workspace]\\Unity\\SpaceShooter\\assets\\scripts\\turretproperities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\turretproperities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\Scripts\\TurretProperities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TurretProperities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,11 +62,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "LevelBuilder.cs",
+              "DocumentMoniker": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\CodeBase\\GamePlay\\Services\\LevelBuilder.cs",
+              "RelativeDocumentMoniker": "Assets\\CodeBase\\GamePlay\\Services\\LevelBuilder.cs",
+              "ToolTip": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\CodeBase\\GamePlay\\Services\\LevelBuilder.cs",
+              "RelativeToolTip": "Assets\\CodeBase\\GamePlay\\Services\\LevelBuilder.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T13:22:08.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Player.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\CodeBase\\GamePlay\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\CodeBase\\GamePlay\\Player.cs",
@@ -70,38 +87,37 @@
               "RelativeToolTip": "Assets\\CodeBase\\GamePlay\\Player.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T15:59:27.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T15:59:27.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LivesIndicator.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\CodeBase\\GamePlay\\UI\\Indicators\\LivesIndicator.cs",
               "RelativeDocumentMoniker": "Assets\\CodeBase\\GamePlay\\UI\\Indicators\\LivesIndicator.cs",
               "ToolTip": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\CodeBase\\GamePlay\\UI\\Indicators\\LivesIndicator.cs",
               "RelativeToolTip": "Assets\\CodeBase\\GamePlay\\UI\\Indicators\\LivesIndicator.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABEAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T15:56:32.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PlayerSpawner.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\CodeBase\\GamePlay\\Services\\PlayerSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\CodeBase\\GamePlay\\Services\\PlayerSpawner.cs",
               "ToolTip": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\CodeBase\\GamePlay\\Services\\PlayerSpawner.cs",
               "RelativeToolTip": "Assets\\CodeBase\\GamePlay\\Services\\PlayerSpawner.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T15:56:17.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "HitPointBar.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\CodeBase\\GamePlay\\UI\\Indicators\\HitPointBar.cs",
               "RelativeDocumentMoniker": "Assets\\CodeBase\\GamePlay\\UI\\Indicators\\HitPointBar.cs",
@@ -114,20 +130,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "SingletonBase.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\CodeBase\\Infrastructure\\SingletonBase.cs",
               "RelativeDocumentMoniker": "Assets\\CodeBase\\Infrastructure\\SingletonBase.cs",
               "ToolTip": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\CodeBase\\Infrastructure\\SingletonBase.cs",
               "RelativeToolTip": "Assets\\CodeBase\\Infrastructure\\SingletonBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T14:38:53.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ScoreText.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\Scripts\\UI\\Indicators\\ScoreText.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Indicators\\ScoreText.cs",
@@ -139,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ImpactEffect.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\Scripts\\ImpactEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ImpactEffect.cs",
@@ -151,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MovementController.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\Scripts\\Controller\\MovementController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\MovementController.cs",
@@ -163,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PointClickHold.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\Scripts\\PointClickHold.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PointClickHold.cs",
@@ -175,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "SpaceShip.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\Scripts\\Space\\SpaceShip.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Space\\SpaceShip.cs",
@@ -187,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Turret.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\Scripts\\Turret.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Turret.cs",
@@ -199,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "TurretProperities.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\SpaceShooter\\Assets\\Scripts\\TurretProperities.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TurretProperities.cs",
